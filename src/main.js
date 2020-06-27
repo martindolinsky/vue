@@ -15,8 +15,6 @@ import vehicle from "./components/Vehicle";
 import starships from "./components/Starships";
 import starship from "./components/Starship";
 
-var infiniteScroll = require('vue-infinite-scroll');
-Vue.use(infiniteScroll);
 
 Vue.use(VueRouter);
 

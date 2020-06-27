@@ -1,5 +1,5 @@
 <template>
-    <div v-infinite-scroll="loadMore" infinite-scroll-disabled="busy" infinite-scroll-distance="10" id="people">
+    <div id="people">
         <div v-for="(person, index) in people" :key="index" class="person">
             <router-link class="item" v-bind:to="'/people/' + parseInt(index+1) ">
                 <div :bind:id="1">{{person.name}}</div>
